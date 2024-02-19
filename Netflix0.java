@@ -5,7 +5,7 @@ public class Netflix0 {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/Netflix";
         String username = "root";
-        String password = "N26$$";
+        String password = "$$";
 
         try (Connection conn = DriverManager.getConnection(url, username, password);
              Statement stmt = conn.createStatement()) {
