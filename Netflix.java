@@ -11,7 +11,7 @@ public class Netflix {
         // Establish a connection to the MySQL database
         String url = "jdbc:mysql://localhost:3306/Netflix";
         String user = "root";
-        String password = "N26$$";
+        String password = "$$";
         Connection conn = DriverManager.getConnection(url, user, password);
 
         // Read the CSV file using OpenCSV
